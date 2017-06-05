@@ -36,6 +36,7 @@ void node_connect(node_t *);
 void share_key(node_t *);
 int search_key(node_t *,int );
 void print_csv(node_t *,int );
+void print_search(int );
 double speed_get();
 
 int main(){
@@ -68,7 +69,8 @@ int main(){
 	hit_count = search_key(node,ch);
 
 	//print for csv
-	print_csv(node,hit_count);
+	//print_csv(node,hit_count);
+	print_search(hit_count);
 
 	free(node);
 	//printf(" ch = %d\n",ch);
@@ -463,6 +465,13 @@ void print_csv(node_t *node,int hit_count){
 		}
 		printf("\n");
 	}
+}
+
+
+void print_search(int hit_count){
+
+    printf("%d\n",hit_count);
+
 }
 
 
