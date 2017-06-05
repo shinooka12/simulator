@@ -1,1 +1,3 @@
-# simulator
+# P2P simulator
+研究で書いてるコードです
+殴り書きなので汚いです
