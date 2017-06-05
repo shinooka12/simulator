@@ -1,0 +1,9 @@
+math.hとlog2を使うとき
+
+math.h -lm
+log2 -std=c99
+
+が必要
+
+gcc -std=c99 ファイル名.c -lm
+となる。
