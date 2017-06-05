@@ -7,7 +7,7 @@
 #define NODE_MAX 500
 #define KNOWN_NODE 500
 #define PARENT_MAX 2
-#define CHILD_MAX 5	
+#define CHILD_MAX 5
 #define BUFSIZE 1024
 #define KEY_SHARECOUNT 3
 #define SEARCH_MAX 5000
