@@ -1,7 +1,7 @@
 #!/bin/bash
 
-command="rm result.txt"
-command1="./sim_p2p >> result.txt"
+command="rm ../result/result.txt"
+command1="./sim_p2p >> ../result/result.txt"
 command2="./result_ave"
 
 eval $command

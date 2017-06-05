@@ -10,7 +10,7 @@ int main(){
     int num;
     double ave;
 
-    if((fp = fopen("result.txt","r"))==NULL){
+    if((fp = fopen("../result/result.txt","r"))==NULL){
 	printf("file open error\n");
 	exit(1);
     }
